@@ -1,10 +1,11 @@
 {
-  "name": "js-utils",
-  "version": "1.0.0",
+  "name": "@validitylabs/js-utils",
+  "version": "0.0.1",
   "description": "Javascript Utilities.",
   "author": "Patrice Juergens <pj@validitylabs.org>",
   "homepage": "https://github.com/validitylabs/js-utils",
-  "main": "node/index.js",
+  "main": "src/index.js",
+  "private": false,
   "license": "MIT",
   "engines": {
     "node": "^8.0.x"
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "test": "mocha -R spec --require babel-core/register --require babel-polyfill",
-    "clean": "shx rm -fr  node_modules"
+    "clean": "shx rm -fr node_modules"
   },
   "dependencies": {
     "ms": "^2.1.1"
